@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma lista dos meus filmes favoritos com links para mais informações sobre cada um.">
+    <meta name="keywords" content="Filmes Favoritos, Cinema, Hollywood">
+    <title>Meus Filmes Favoritos</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Adicionando um favicon personalizado -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #topo {
+            text-align: center;
+            color: #333;
+            padding-top: 20px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 300px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .filme-name {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #333;
+            display: block;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from links */
+        }
+        .filme-name:hover {
+            text-decoration: underline;
+        }
+        .filme-desc {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .filme-info {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 5px;
+        }
+        #voltar-inicio {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #voltar-inicio a {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        #voltar-inicio a:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="topo">Meus filmes favoritos</h1>
+    <ul>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Interstellar" class="filme-name">Interstellar</a>
+            <a href="https://pt.wikipedia.org/wiki/Interstellar">
+                <img src="int.jpg" alt="Pôster do filme Interstellar">
+            </a>
+            <p class="filme-desc">Uma jornada épica além das estrelas para garantir o futuro da humanidade.</p>
+            <p class="filme-info">Ano: 2014 | Diretor: Christopher Nolan</p>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Carros_(filme)" class="filme-name">Carros</a>
+            <a href="https://pt.wikipedia.org/wiki/Carros_(filme)">
+                <img src="carros.jpeg" alt="Pôster do filme Carros">
+            </a>
+            <p class="filme-desc">Aventuras de um carro de corrida em uma pequena cidade esquecida.</p>
+            <p class="filme-info">Ano: 2006 | Diretor: John Lasseter</p>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Homem_de_Ferro" class="filme-name">Homem de Ferro</a>
+            <a href="https://pt.wikipedia.org/wiki/Homem_de_Ferro">
+                <img src="homem de ferro.jpeg" alt="Pôster do filme Homem de Ferro">
+            </a>
+            <p class="filme-desc">A transformação de um industrial em um super-herói equipado com uma armadura tecnológica.</p>
+            <p class="filme-info">Ano: 2008 | Diretor: Jon Favreau</p>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Pirates_of_the_Caribbean_(s%C3%A9rie_de_filmes)" class="filme-name">Piratas do Caribe</a>
+            <a href="https://pt.wikipedia.org/wiki/Pirates_of_the_Caribbean_(s%C3%A9rie_de_filmes)">
+                <img src="piratas.jpeg" alt="Pôster da série de filmes Piratas do Caribe">
+            </a>
+            <p class="filme-desc">Aventuras do Capitão Jack Sparrow pelos mares desconhecidos.</p>
+            <p class="filme-info">Ano: 2003 | Diretor: Gore Verbinski</p>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Grown_Ups" class="filme-name">Gente Grande</a>
+            <a href="https://pt.wikipedia.org/wiki/Grown_Ups">
+                <img src="gente.jpeg" alt="Pôster do filme Gente Grande">
+            </a>
+            <p class="filme-desc">Comédia sobre amigos de infância que se reencontram após anos.</p>
+            <p class="filme-info">Ano: 2010 | Diretor: Dennis Dugan</p>
+        </li>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/The_Hangover" class="filme-name">Se Beber, Não Case!</a>
+            <a href="https://pt.wikipedia.org/wiki/The_Hangover">
+                <img src="se beber.jpeg" alt="Pôster do filme Se Beber, Não Case!">
+            </a>
+            <p class="filme-desc">Uma despedida de solteiro em Las Vegas que dá terrivelmente errado.</p>
+            <p class="filme-info">Ano: 2009 | Diretor: Todd Phillips</p>
+        </li>
+        <!-- Adicione mais filmes seguindo o mesmo padrão -->
+    </ul>
+    <div id="voltar-inicio">
+        <a href="#topo">Voltar para o início</a>
+    </div>
+</body>
+</html>
